@@ -42,8 +42,8 @@ div.verse {
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: 5cm auto;
-  text-shadow: -1px -1px 3px #666, 1px -1px 3px #666, -1px 1px 3px #666,
-    1px 1px 3px #666;
+  text-shadow: -1px -1px 2px #fff, 1px -1px 2px #fff, -1px 1px 2px #fff,
+    1px 1px 2px #fff;
 }
 
 div.verse.long {
@@ -67,16 +67,19 @@ div.verse.short {
 .place {
   margin-top: 2.2cm;
   text-align: left;
-  font-size: 11pt;
-  color: #000;
+  color: rgb(48, 24, 7);
   font-style: italic;
   text-shadow: -1px -1px 1px #fff, 1px -1px 1px #fff, -1px 1px 1px #fff,
     1px 1px 1px #fff;
   /* text-shadow: 1px 1px 5pt #000; */
 }
 
+div.verse.short .place {
+  margin-top: 3.3cm;
+}
+
 div.verse.long .place {
-  margin-top: 1.8cm;
+  margin-top: 2.7cm;
 }
 
 div.text {
