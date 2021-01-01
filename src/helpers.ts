@@ -55,7 +55,7 @@ export function getSortedItemList(rows: string[]) {
       sk_text,
       sk_coord: parts[1].trim(),
       hu_text,
-      hu_coord: parts[3].trim(),
+      hu_coord: parts[3] ? parts[3].trim() : undefined,
       count: sk_text.length + hu_text.length
     };
     list[j] = versecard;
